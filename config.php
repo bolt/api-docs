@@ -19,9 +19,8 @@ $versions = GitVersionCollection::create($dir)
 ;
 
 return new Sami($iterator, array(
-//    'theme'                => 'symfony',
     'versions'             => $versions,
-    'title'                => 'Bolt 4 API',
+    'title'                => 'Bolt 4 API documentation',
     'build_dir'            => __DIR__ . '/build/%version%',
     'cache_dir'            => __DIR__ . '/cache/%version%',
     'remote_repository'    => new GitHubRemoteRepository('bolt/core', dirname($dir)),

@@ -1,5 +1,16 @@
 {
+    "name": "bob/api-docs-generator",
+    "description": "A simple repository to create Bolt 4 API docs, using Sami",
+    "type": "project",
     "require": {
         "sami/sami": "^4.1"
-    }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bob den Otter",
+            "email": "bob@twokings.nl"
+        }
+    ],
+    "minimum-stability": "stable"
 }
