@@ -8,8 +8,8 @@ use Symfony\Component\Finder\Finder;
 $iterator = Finder::create()
     ->files()
     ->name('*.php')
-    ->exclude('Resources')
-    ->exclude('Tests')
+    ->exclude('tests')
+    ->exclude('vendor')
     ->in($dir = __DIR__ . '/core')
 ;
 
