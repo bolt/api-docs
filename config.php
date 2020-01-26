@@ -23,7 +23,7 @@ return new Sami($iterator, array(
     'title'                => 'Bolt 4 API documentation',
     'build_dir'            => __DIR__ . '/build/%version%',
     'cache_dir'            => __DIR__ . '/cache/%version%',
-    'remote_repository'    => new GitHubRemoteRepository('bolt/core', dirname($dir)),
+    'remote_repository'    => new GitHubRemoteRepository('bolt/core', dirname(dirname($dir))),
     'default_opened_level' => 2,
 ));
 
