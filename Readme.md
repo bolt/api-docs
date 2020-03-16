@@ -12,6 +12,7 @@ First, clone this repo, and go into the newly created folder. Then:
 ```bash
 composer install
 git clone git@github.com:bolt/core.git
+rm -rf core/var/cache/*
 php vendor/sami/sami/sami.php update config.php
 ```
 
