@@ -13,7 +13,7 @@ First, clone this repo, and go into the newly created folder. Then:
 composer install
 git clone git@github.com:bolt/core.git
 rm -rf core/var/cache/*
-php vendor/sami/sami/sami.php update config.php
+php vendor/bin/doctum.php update config.php
 ```
 
 The `build/` folder will now contain the latest version of the built docs.

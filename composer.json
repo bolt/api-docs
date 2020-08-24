@@ -1,9 +1,9 @@
 {
     "name": "bob/api-docs-generator",
-    "description": "A simple repository to create Bolt 4 API docs, using Sami",
+    "description": "A simple repository to create Bolt 4 API docs, using Doctum",
     "type": "project",
     "require": {
-        "sami/sami": "^4.1"
+        "code-lts/doctum": "^5.0"
     },
     "license": "MIT",
     "authors": [
